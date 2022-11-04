@@ -1,0 +1,31 @@
+.register{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ background-image: linear-gradient(to right, #f6d365 0%, #fda085 100%);;
+}
+.Login{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ background-image: linear-gradient(to right, #f6d365 0%, #fda085 100%);;
+}
+.lottie{
+  height: 400px;
+}
+.register input{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid grey ;
+}
+.Login input{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid grey ;
+}
+input :focus{
+  outline:none !important;
+  box-shadow: none !important;
+}
