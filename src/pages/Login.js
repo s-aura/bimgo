@@ -11,7 +11,7 @@ const onFinish= async(values)=>{
     const response =  await axios.post('/api/users/login', values)
     localStorage.setItem('brokeoswal-user',JSON.stringify(response))
     message.success('login successful')
-    navigate('/')
+    navigate('/') 
     }
      catch (error){
      message.error('login failed')
